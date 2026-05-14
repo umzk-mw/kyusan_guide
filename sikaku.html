@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資格課程 - 九産大 学生生活ガイド</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        details { margin-bottom: 12px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; }
+        summary { padding: 16px; font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: "＋"; color: #a0aec0; }
+        details[open] summary::after { content: "－"; color: #004494; }
+        .content { padding: 16px; border-top: 1px solid #edf2f7; font-size: 0.95rem; background-color: #fafbfc; }
+        .back-btn { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #004494; font-size: 0.9rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">⬅ トップページへ戻る</a>
+        <header>
+            <h1>🎓 資格課程</h1>
+            <p>教職課程や学芸員課程の履修について</p>
+        </header>
+
+        <div style="margin-top: 20px;">
+            <details>
+                <summary>教職課程</summary>
+                <div class="content">
+                    <p>教職の履修登録の進め方、必要な単位数、実習の時期や注意点を記載します。</p>
+                </div>
+            </details>
+            <details>
+                <summary>学芸員課程</summary>
+                <div class="content">
+                    <p>学芸員資格の取得に必要な科目、美術館実習などの手続きについてまとめます。</p>
+                </div>
+            </details>
+            <details>
+                <summary>その他の資格・サポート</summary>
+                <div class="content">
+                    <p>学内で受験できる資格試験や、キャリア支援センターの対策講座情報を記載します。</p>
+                </div>
+            </details>
+        </div>
+        <footer><p>© 2026 九産大 Q&A</p></footer>
+    </div>
+</body>
+</html>

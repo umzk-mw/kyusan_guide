@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>授業・単位について - 九産大 学生生活ガイド</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 授業ページ専用の追加デザイン（アコーディオン用） */
+        details {
+            margin-bottom: 12px;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        summary {
+            padding: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: "＋"; color: #a0aec0; }
+        details[open] summary::after { content: "－"; color: #004494; }
+        
+        .content {
+            padding: 16px;
+            border-top: 1px solid #edf2f7;
+            font-size: 0.95rem;
+            background-color: #fafbfc;
+        }
+        /* 戻るボタンのデザイン */
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #004494;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-btn">⬅ トップページへ戻る</a>
+
+        <header>
+            <h1>📚 授業・単位</h1>
+            <p>履修登録や単位の仕組み、教室の見方など</p>
+        </header>
+
+        <div style="margin-top: 20px;">
+            <details>
+                <summary>履修登録の注意点</summary>
+                <div class="content">
+                    <p>登録期間や変更期間、他学科履修についてのリアルな情報を記載。（CLノートの確認方法など）</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>単位・振替単位について</summary>
+                <div class="content">
+                    <p>選択必修、選択科目の振替単位や、資格取得による振替単位についてもここに明記。</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>教室の番号の見方・検索</summary>
+                <div class="content">
+                    <p>何号館のどこにあるか、番号の見方のコツを記載。どの学科がどの棟をよく使うか。</p>
+                </div>
+            </details>
+        </div>
+
+        <footer>
+            <p>© 2026 九産大 Q&A</p>
+        </footer>
+    </div>
+
+</body>
+</html>
