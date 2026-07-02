@@ -38,22 +38,22 @@
             margin: 0;
         }
 
-        .search-container {
+        /*/.container {
             margin: 15px 0 25px 0;
             position: relative;
         }
 
-        .search-bar {
+        /*.search-bar {
             width: 100%;
             padding: 14px 15px 14px 40px; /* 左側に虫眼鏡アイコンのスペースを空ける */
-            font-size: 0.95rem;
+            /*font-size: 0.95rem;
             border: 2px solid #cbd5e0;
             border-radius: 12px;
             box-sizing: border-box;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
             transition: all 0.3s ease;
-        }
+        /*}
 
         /* 検索バーにフォーカスが当たった時のエフェクト */
         .search-bar:focus {
@@ -73,6 +73,15 @@
             opacity: 0.6;
         }
 
+        /* サイト内の画像が画面幅に自動で収まるようにする設定 */
+        .page-img {
+            width: 100%;          /* 画面の横幅いっぱいに自動で合わせる */
+            max-width: 100%;      /* 元の画像サイズより大きくはしない */
+            border-radius: 8px;   /* 画像の角を少し丸くして優しくする */
+            margin: 10px 0;       /* 画像の上下に少しすき間を空ける */
+        }
+
+        
         /* ==========================================================================
            3. 4つのメインカテゴリー（グリッドレイアウト）
            ========================================================================== */
